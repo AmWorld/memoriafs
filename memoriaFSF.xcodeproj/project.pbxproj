@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B718401CA9C9880015AD77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7183F1CA9C9880015AD77 /* AppDelegate.swift */; };
+		42B718421CA9C9880015AD77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B718411CA9C9880015AD77 /* ViewController.swift */; };
+		42B718451CA9C9880015AD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B718431CA9C9880015AD77 /* Main.storyboard */; };
+		42B718471CA9C9880015AD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B718461CA9C9880015AD77 /* Assets.xcassets */; };
+		42B7184A1CA9C9880015AD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B718481CA9C9880015AD77 /* LaunchScreen.storyboard */; };
+		42B718551CA9C9880015AD77 /* memoriaFSFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B718541CA9C9880015AD77 /* memoriaFSFTests.swift */; };
+		42B718601CA9C9880015AD77 /* memoriaFSFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7185F1CA9C9880015AD77 /* memoriaFSFUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B718511CA9C9880015AD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B718341CA9C9880015AD77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B7183B1CA9C9880015AD77;
+			remoteInfo = memoriaFSF;
+		};
+		42B7185C1CA9C9880015AD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B718341CA9C9880015AD77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B7183B1CA9C9880015AD77;
+			remoteInfo = memoriaFSF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42B7183C1CA9C9880015AD77 /* memoriaFSF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoriaFSF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B7183F1CA9C9880015AD77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42B718411CA9C9880015AD77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42B718441CA9C9880015AD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42B718461CA9C9880015AD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42B718491CA9C9880015AD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42B7184B1CA9C9880015AD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B718501CA9C9880015AD77 /* memoriaFSFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaFSFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B718541CA9C9880015AD77 /* memoriaFSFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriaFSFTests.swift; sourceTree = "<group>"; };
+		42B718561CA9C9880015AD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B7185B1CA9C9880015AD77 /* memoriaFSFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaFSFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B7185F1CA9C9880015AD77 /* memoriaFSFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriaFSFUITests.swift; sourceTree = "<group>"; };
+		42B718611CA9C9880015AD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B718391CA9C9880015AD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B7184D1CA9C9880015AD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B718581CA9C9880015AD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B718331CA9C9880015AD77 = {
+			isa = PBXGroup;
+			children = (
+				42B7183E1CA9C9880015AD77 /* memoriaFSF */,
+				42B718531CA9C9880015AD77 /* memoriaFSFTests */,
+				42B7185E1CA9C9880015AD77 /* memoriaFSFUITests */,
+				42B7183D1CA9C9880015AD77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42B7183D1CA9C9880015AD77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B7183C1CA9C9880015AD77 /* memoriaFSF.app */,
+				42B718501CA9C9880015AD77 /* memoriaFSFTests.xctest */,
+				42B7185B1CA9C9880015AD77 /* memoriaFSFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B7183E1CA9C9880015AD77 /* memoriaFSF */ = {
+			isa = PBXGroup;
+			children = (
+				42B7183F1CA9C9880015AD77 /* AppDelegate.swift */,
+				42B718411CA9C9880015AD77 /* ViewController.swift */,
+				42B718431CA9C9880015AD77 /* Main.storyboard */,
+				42B718461CA9C9880015AD77 /* Assets.xcassets */,
+				42B718481CA9C9880015AD77 /* LaunchScreen.storyboard */,
+				42B7184B1CA9C9880015AD77 /* Info.plist */,
+			);
+			path = memoriaFSF;
+			sourceTree = "<group>";
+		};
+		42B718531CA9C9880015AD77 /* memoriaFSFTests */ = {
+			isa = PBXGroup;
+			children = (
+				42B718541CA9C9880015AD77 /* memoriaFSFTests.swift */,
+				42B718561CA9C9880015AD77 /* Info.plist */,
+			);
+			path = memoriaFSFTests;
+			sourceTree = "<group>";
+		};
+		42B7185E1CA9C9880015AD77 /* memoriaFSFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42B7185F1CA9C9880015AD77 /* memoriaFSFUITests.swift */,
+				42B718611CA9C9880015AD77 /* Info.plist */,
+			);
+			path = memoriaFSFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B7183B1CA9C9880015AD77 /* memoriaFSF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B718641CA9C9880015AD77 /* Build configuration list for PBXNativeTarget "memoriaFSF" */;
+			buildPhases = (
+				42B718381CA9C9880015AD77 /* Sources */,
+				42B718391CA9C9880015AD77 /* Frameworks */,
+				42B7183A1CA9C9880015AD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memoriaFSF;
+			productName = memoriaFSF;
+			productReference = 42B7183C1CA9C9880015AD77 /* memoriaFSF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42B7184F1CA9C9880015AD77 /* memoriaFSFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B718671CA9C9880015AD77 /* Build configuration list for PBXNativeTarget "memoriaFSFTests" */;
+			buildPhases = (
+				42B7184C1CA9C9880015AD77 /* Sources */,
+				42B7184D1CA9C9880015AD77 /* Frameworks */,
+				42B7184E1CA9C9880015AD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B718521CA9C9880015AD77 /* PBXTargetDependency */,
+			);
+			name = memoriaFSFTests;
+			productName = memoriaFSFTests;
+			productReference = 42B718501CA9C9880015AD77 /* memoriaFSFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42B7185A1CA9C9880015AD77 /* memoriaFSFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B7186A1CA9C9880015AD77 /* Build configuration list for PBXNativeTarget "memoriaFSFUITests" */;
+			buildPhases = (
+				42B718571CA9C9880015AD77 /* Sources */,
+				42B718581CA9C9880015AD77 /* Frameworks */,
+				42B718591CA9C9880015AD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B7185D1CA9C9880015AD77 /* PBXTargetDependency */,
+			);
+			name = memoriaFSFUITests;
+			productName = memoriaFSFUITests;
+			productReference = 42B7185B1CA9C9880015AD77 /* memoriaFSFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B718341CA9C9880015AD77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Edgar Santa Florez";
+				TargetAttributes = {
+					42B7183B1CA9C9880015AD77 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					42B7184F1CA9C9880015AD77 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 42B7183B1CA9C9880015AD77;
+					};
+					42B7185A1CA9C9880015AD77 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 42B7183B1CA9C9880015AD77;
+					};
+				};
+			};
+			buildConfigurationList = 42B718371CA9C9880015AD77 /* Build configuration list for PBXProject "memoriaFSF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42B718331CA9C9880015AD77;
+			productRefGroup = 42B7183D1CA9C9880015AD77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B7183B1CA9C9880015AD77 /* memoriaFSF */,
+				42B7184F1CA9C9880015AD77 /* memoriaFSFTests */,
+				42B7185A1CA9C9880015AD77 /* memoriaFSFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B7183A1CA9C9880015AD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B7184A1CA9C9880015AD77 /* LaunchScreen.storyboard in Resources */,
+				42B718471CA9C9880015AD77 /* Assets.xcassets in Resources */,
+				42B718451CA9C9880015AD77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B7184E1CA9C9880015AD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B718591CA9C9880015AD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B718381CA9C9880015AD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B718421CA9C9880015AD77 /* ViewController.swift in Sources */,
+				42B718401CA9C9880015AD77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B7184C1CA9C9880015AD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B718551CA9C9880015AD77 /* memoriaFSFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B718571CA9C9880015AD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B718601CA9C9880015AD77 /* memoriaFSFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42B718521CA9C9880015AD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B7183B1CA9C9880015AD77 /* memoriaFSF */;
+			targetProxy = 42B718511CA9C9880015AD77 /* PBXContainerItemProxy */;
+		};
+		42B7185D1CA9C9880015AD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B7183B1CA9C9880015AD77 /* memoriaFSF */;
+			targetProxy = 42B7185C1CA9C9880015AD77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42B718431CA9C9880015AD77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B718441CA9C9880015AD77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42B718481CA9C9880015AD77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B718491CA9C9880015AD77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42B718621CA9C9880015AD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42B718631CA9C9880015AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B718651CA9C9880015AD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = memoriaFSF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fsf.memoriaFSF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42B718661CA9C9880015AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = memoriaFSF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fsf.memoriaFSF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42B718681CA9C9880015AD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = memoriaFSFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fsf.memoriaFSFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memoriaFSF.app/memoriaFSF";
+			};
+			name = Debug;
+		};
+		42B718691CA9C9880015AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = memoriaFSFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fsf.memoriaFSFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memoriaFSF.app/memoriaFSF";
+			};
+			name = Release;
+		};
+		42B7186B1CA9C9880015AD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = memoriaFSFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fsf.memoriaFSFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = memoriaFSF;
+			};
+			name = Debug;
+		};
+		42B7186C1CA9C9880015AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = memoriaFSFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fsf.memoriaFSFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = memoriaFSF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B718371CA9C9880015AD77 /* Build configuration list for PBXProject "memoriaFSF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B718621CA9C9880015AD77 /* Debug */,
+				42B718631CA9C9880015AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B718641CA9C9880015AD77 /* Build configuration list for PBXNativeTarget "memoriaFSF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B718651CA9C9880015AD77 /* Debug */,
+				42B718661CA9C9880015AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42B718671CA9C9880015AD77 /* Build configuration list for PBXNativeTarget "memoriaFSFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B718681CA9C9880015AD77 /* Debug */,
+				42B718691CA9C9880015AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42B7186A1CA9C9880015AD77 /* Build configuration list for PBXNativeTarget "memoriaFSFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B7186B1CA9C9880015AD77 /* Debug */,
+				42B7186C1CA9C9880015AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42B718341CA9C9880015AD77 /* Project object */;
+}
