@@ -47,7 +47,7 @@
 		42B7185B1CA9C9880015AD77 /* memoriaFSFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaFSFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B7185F1CA9C9880015AD77 /* memoriaFSFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriaFSFUITests.swift; sourceTree = "<group>"; };
 		42B718611CA9C9880015AD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42B7186D1CB1B8540015AD77 /* Reto1FSF.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Reto1FSF.playground; path = ../Reto1FSF.playground; sourceTree = "<group>"; };
+		42B7186D1CB1B8540015AD77 /* Reto1FSF.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Reto1FSF.playground; path = ../../Reto1FSF.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,6 @@
 		42B718331CA9C9880015AD77 = {
 			isa = PBXGroup;
 			children = (
-				42B7186D1CB1B8540015AD77 /* Reto1FSF.playground */,
 				42B7183E1CA9C9880015AD77 /* memoriaFSF */,
 				42B718531CA9C9880015AD77 /* memoriaFSFTests */,
 				42B7185E1CA9C9880015AD77 /* memoriaFSFUITests */,
@@ -102,6 +101,7 @@
 				42B7183F1CA9C9880015AD77 /* AppDelegate.swift */,
 				42B718411CA9C9880015AD77 /* ViewController.swift */,
 				42B718431CA9C9880015AD77 /* Main.storyboard */,
+				42B7186D1CB1B8540015AD77 /* Reto1FSF.playground */,
 				42B718461CA9C9880015AD77 /* Assets.xcassets */,
 				42B718481CA9C9880015AD77 /* LaunchScreen.storyboard */,
 				42B7184B1CA9C9880015AD77 /* Info.plist */,
